@@ -1,0 +1,10 @@
+$tamanyo: length($tamanyos);
+
+@for $i from 1 through $tamanyo{
+    $valor: nth($tamanyos, $i );
+    .g--font-size-#{$i}{
+        font-size: var(--font-size-#{$i});
+    }
+} 
+
+

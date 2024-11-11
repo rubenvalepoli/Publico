@@ -1,0 +1,31 @@
+:root{
+
+    $tamanyo:length($tamanyos);
+
+    @for $i from 1 through  $tamanyo{
+
+        $valor: nth($tamanyos, $i);
+        --padding-#{$i}: #{$valor};    
+        --padding-left-#{$i}: #{$valor};    
+        --font-size-#{$i}: #{$valor};  
+    }
+    
+    $tamanyoGrande:length($tamanyosGrandes);
+
+    @for $i from 1 through  $tamanyoGrande{
+
+        $valor: nth($tamanyosGrandes, $i);
+        --width-#{$i}: #{$valor};
+        --height-#{$i}: #{$valor};
+        
+    }
+
+    @each $palette-name, $colors in $colores {
+        $num-colors: length($colors);
+        @for $i from 1 through $num-colors {
+          $color: nth($colors, $i);
+          --#{$palette-name}-#{$i}: #{$color};
+        }
+      }
+
+}

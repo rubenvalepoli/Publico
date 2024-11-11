@@ -1,0 +1,8 @@
+$tamanyo: length($tamanyosGrandes);
+
+@for $i from 1 through $tamanyo{
+    $valor: nth($tamanyosGrandes, $i );
+    .g--height-#{$i}{
+        height: var(--height-#{$i});
+    }
+} 

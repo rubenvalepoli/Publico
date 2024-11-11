@@ -1,0 +1,9 @@
+$tamanyo: length($tamanyos);
+
+@for $i from 1 through $tamanyo{
+    $valor: nth($tamanyos, $i );
+    .g--padding-#{$i}{
+        padding: var(--padding-#{$i});
+        padding-left: var(--padding-#{$i});
+    }
+} 
