@@ -10,6 +10,10 @@
             color: var(--#{$palette-name}-#{$i});
         }
 
+        .g--color-#{$palette-name}-#{$i} {
+            color: var(--#{$palette-name}-#{$i});
+        }
+
         .border-#{$palette-name}-#{$i} {
             border-color: var(--#{$palette-name}-#{$i});
         }

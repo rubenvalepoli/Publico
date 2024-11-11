@@ -19,6 +19,13 @@
 
         &-imagen {
             display: inline-block;
+
+            &--warning{
+                color: var(--rojos-3);
+            }
+            &--warning{
+                color: var(--rojos-3);
+            }
         }
 
         &-title {
