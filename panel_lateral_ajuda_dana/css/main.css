@@ -192,12 +192,6 @@
 .c-menu-lateral__item-imagen {
   display: inline-block;
 }
-.c-menu-lateral__item-imagen--warning {
-  color: var(--rojos-3);
-}
-.c-menu-lateral__item-imagen--warning {
-  color: var(--rojos-3);
-}
 .c-menu-lateral__item-title {
   display: inline;
   font-weight: bold;
@@ -210,7 +204,7 @@
 .c-menu-lateral__item-subtitle {
   font-size: var(--font-size-6);
   color: var(--grises-6);
-  padding-left: var(--padding-left-5);
+  padding-left: var(--padding-left-11);
 }
 .c-menu-lateral__item-subtitle--warning {
   color: var(--warning-4);

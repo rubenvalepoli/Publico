@@ -9,7 +9,6 @@
     &__item {
         width: var(--width-4);
 
-
         &--warning {
             padding-top: var(--padding-6);
             background-color: var(--warning-2);
@@ -20,12 +19,6 @@
         &-imagen {
             display: inline-block;
 
-            &--warning{
-                color: var(--rojos-3);
-            }
-            &--warning{
-                color: var(--rojos-3);
-            }
         }
 
         &-title {
@@ -43,7 +36,8 @@
         &-subtitle {
             font-size: var(--font-size-6);
             color: var(--grises-6);
-            padding-left: var(--padding-left-5);
+            padding-left: var(--padding-left-11);
+            
 
             &--warning {
                 color: var(--warning-4);
